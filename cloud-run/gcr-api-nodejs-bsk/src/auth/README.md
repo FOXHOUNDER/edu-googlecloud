@@ -1,0 +1,1 @@
+Per i service accounts, chiedere all'owner di progetto
