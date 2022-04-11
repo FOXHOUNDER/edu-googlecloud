@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Right to be forgotten</title>
+</head>
+<body>
+
+<h2>Right to be forgotten</h2>
+
+<form action="/rtbf" method="post">
+  <label>NUM_CLI Cliente:</label> <input type="text" id="num_cli" name="num_cli" maxlength="8" size="8">
+    <br><br>
+  <input type="submit" value="Anonimizzazione">
+</form>
+<p>{{ message |safe }}</p>
+<p style="font-size: 16px;">Attenzione: Con il click sul pulsante "Anonimizzazione" i dati del NUM_CLI del cliente inserito saranno anonimizzati/cancellati.<br>Non sarà pertanto più possibile recuperare i dati anonimizzati/cancellati.</p>
+</body>
+</html>
